@@ -1,0 +1,1 @@
+{{with vault "postgresql/creds/readonly"}}{{.Data.username}}{{end}}

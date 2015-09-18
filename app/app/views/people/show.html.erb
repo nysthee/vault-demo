@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @person.name %>
+</p>
+
+<p>
+  <strong>Credit card:</strong>
+  <%= @person.credit_card %>
+</p>
+
+<p>
+  <strong>Credit card encrypted:</strong>
+  <%= @person.credit_card_encrypted %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>

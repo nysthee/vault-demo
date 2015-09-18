@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  credit_card_encrypted: MyText
+  json_encrypted: MyText
+
+two:
+  name: MyText
+  credit_card_encrypted: MyText
+  json_encrypted: MyText
